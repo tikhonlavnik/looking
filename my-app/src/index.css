@@ -1,0 +1,317 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow-x:hidden;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* CUSTOM */
+
+.main_header {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(24, 83, 176);
+  /* position: relative; */
+  /* display: list-item; */
+}
+
+.cont {
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(24, 83, 176);
+  color: white;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 12vh;
+  padding-bottom: 20px;
+  /* margin-top: 50px; */
+  /* header: 100% */
+}
+
+.header_inner {
+  width: 85%;
+  /* align-items: center; */
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.place {
+  color:white;
+  border-color: white;
+}
+
+.Btn-Nav{
+  margin-left: 10px;
+}
+
+.Nav-header-div {
+  width: 85%;
+  align-items:center;
+  position: flex;
+  margin-left: 0;
+}
+
+.Nav-header-btn {
+  color:rgb(255, 255, 255);
+  background-color: rgb(24, 83, 176);
+  border: none;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Nav-header-div span {
+  font-size: 30px;
+}
+
+.active {
+  /* border: 1px solid white;
+
+  border-radius: 50%; */
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border: 1px solid #fff;
+  background-color: rgb(24, 83, 176);
+  /* opacity: .8; */
+  display: block;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.adv {
+  /* height: 150%; */
+  background-color: rgb(24, 83, 176);
+  width: 85%;
+  display: flex;
+  /* margin-left: 0; */
+  margin-top: 5%;
+}
+
+.adv span {
+  font-size: 30px;
+}
+
+.bi {
+  margin-right: 5px;
+}
+
+.Btn-Nav-Reg {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+/* FORM */
+
+.form {
+  display: flex;
+  
+  margin: 0 auto;
+  padding: 0;
+  /* height: 80%; */
+  width: 85%;
+  justify-content: center;
+}
+
+.form-group {
+  border: 4px solid rgb(237, 217, 38);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.form-group Input {
+  border: 1px solid rgb(237, 217, 38);
+  border-radius:0;
+}
+
+.form-group button {
+  border: 2px solid rgb(21, 72, 155);
+  background-color: rgb(21, 72, 155);
+  width: 120%;
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.card-item {
+  border: 1px solid black;
+  /* width: 80%; */
+  /* height: 200px; */
+  margin: 10px;
+}
+
+.img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius:3px;
+}
+
+.cont-adv {
+  width: 85%;
+  align-items:center;
+  margin: 0 auto;
+}
+
+.cont-adv h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cont-adv h5 {
+  font-size: 90%;
+}
+
+.card-row {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 5%;
+  background-color: rgb(24, 83, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* height: 30px; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* min-height: calc(100vh - 80px); */
+}
+
+.Btn-Nav-Reg:hover, .lgi:hover, .reg:hover {
+  color: rgb(51, 128, 251);
+  background-color: #fff;
+  /* pointer-events: none; */
+}
+
+.place:hover {
+  color: rgb(48, 111, 212);
+  background-color: #fff;
+}
+
+
+.com-div {
+  padding-top: 40px;
+  width: 40%;
+  min-height: 72.8vh;
+  margin: 0 auto;
+}
+
+.mc-div {
+  /* width: 80%; */
+  
+  display: flex;
+  
+  margin: 0 auto;
+  padding: 10px;
+  width: 85%;
+  justify-content: center;
+
+  /* background-color: rgb(173, 67, 67); */
+  /* justify-content: space-between; */
+  /* width: 92%; */
+}
+
+.helper {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card-btn {
+  /* position:absolute; */
+  bottom: 0px;
+  margin: 20px 0 10px 0;
+}
+
+.side-Inp {
+  padding: 15px;
+  background-color: rgb(240, 190, 53);
+  margin-right: 10px;
+}
+
+.x {
+  margin-left: 10px;
+}
+
+.cntr {
+  margin-top: 20px;
+  /* padding: 0 40px */
+}
+
+.cntr h3 {
+  margin: 20px 0;
+}
+
+.img-hot {
+  /* max-width: 700px; */
+  max-height: 500px;
+}
+
+.header-hot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn-hot {
+  /* position: relative; */
+}
+
+.row {
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  height: 250px;
+}
+
+/* .cd {
+  height: 500px;
+} */
+
+.card-item {
+  /* min-height: 450px; */
+}
+
+.dropdown-toggle {
+  margin-top: 5px;
+  width: 100%;
+}
